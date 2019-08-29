@@ -1,2 +1,2 @@
 # BookQuote
-An interface where can bid on books.
+An interface where users can bid on books.
