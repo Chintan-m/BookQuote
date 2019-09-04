@@ -1,0 +1,70 @@
+.input-rounded{
+	border-radius:20px!important;
+}
+.form-control{
+/*	position:relative;*/
+	z-index:2;
+	float:left;
+	width:100%;
+	margin-bottom:0
+}
+input.form-control{
+	border-color:#dbdbdb;
+	color:#777;
+	font:14px Arial,sans-serif;
+	border-radius:0;
+	box-shadow:none
+}
+.search-box{
+	padding-left:75px!important
+}
+.search-condition-style{
+	overflow:hidden;
+	position:absolute;
+	top:0;
+	border-right:1px solid #d3d3d3
+}
+.btn{
+	display:inline-block;
+	padding:6px 12px;
+	margin-bottom:0;
+	font-size:14px;
+	font-weight:400;
+	line-height:1.42857143;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:middle;
+	cursor:pointer;
+	background-image:none;
+	border:1px solid transparent;
+	border-radius:4px;
+	position:absolute;
+}
+.btn-primary{
+	float: right;
+	margin-right: 10px
+}
+select.form-control{color:#5f6d7b;border-radius:0;border-color:#e4e6e8;box-shadow:none}
+select.form-control:focus{box-shadow:none;border-color:#999}
+.select-box-condition{font-size:13px;text-transform:unset;padding-left:13px;background-color:#efefef;-moz-appearance:none;-webkit-appearance:none;appearance:none}
+.caret-search{position:absolute;top:11px;color:#000;z-index:2}
+.header .navbar-top-bar .navbar-nav > li > a {
+    background-color: #463f39;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-family: 'RobotoBlack';
+    margin-top: 6px;
+    font-size: 18px;
+}
+
+#my-cart{
+	display:none
+}/*
+.collapse.in{
+	display:block
+}*/
+tr.collapse.in{display:table-row}
+tbody.collapse.in{display:table-row-group}
